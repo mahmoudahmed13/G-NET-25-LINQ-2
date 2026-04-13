@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.Models;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.ConstrainedExecution;
 using static ConsoleApp1.DataSources.Source;
@@ -90,6 +91,11 @@ namespace ConsoleApp1
             #region Question 10
             ////Find the CHEAPEST and MOST EXPENSIVE product prices
             //Console.WriteLine($"Cheapest Produce: {ProductList.Min(p=>p.UnitPrice)} - Exepnive Produce: {ProductList.Max(p=>p.UnitPrice)}");
+            #endregion
+
+            #region Question 11
+            ////12.Get a distinct list of all product categories
+            //var result = ProductList.Select(p => p.Category).Distinct();
             #endregion
 
             //foreach (var item in result)
