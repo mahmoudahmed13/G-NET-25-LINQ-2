@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
+using System.IO.Pipelines;
 using System.Runtime.ConstrainedExecution;
 using static ConsoleApp1.DataSources.Source;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -155,6 +156,14 @@ namespace ConsoleApp1
             //var result = ProductList.ToDictionary(p => p.ProductID);
             //Console.WriteLine(result[18]);
             #endregion
+
+            #region Question 16
+            ////16.Get the first product whose price is greater than $50.
+
+            //var firstProduct = ProductList.FirstOrDefault(p => p.UnitPrice > 50);
+            //Console.WriteLine(firstProduct);
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
