@@ -1,6 +1,9 @@
 ﻿using ConsoleApp1.Models;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using static ConsoleApp1.DataSources.Source;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -98,8 +101,37 @@ namespace ConsoleApp1
             //var result = ProductList.Select(p => p.Category).Distinct();
             #endregion
 
+            #region Question 12 in the sheat is number 9
+            ////9.Using QUERY SYNTAX, group customers by Country,
+            ////and for each group select { Country, Count, TotalOrderValue }.
+            //var result = from c in CustomerList
+            //             group c by c.Country;
             //foreach (var item in result)
-            //    Console.WriteLine(item);
+            //{
+            //    Console.WriteLine($"{item.Key} - Count : {item.Count()} " +
+            //        $"-  {item.Sum(c => c.Orders.Sum(o => o.Total))}");
+            //}
+            //Console.WriteLine("-------------------------");
+            //var result01 = from c in CustomerList
+            //         group c by c.Country
+            //             into groups
+            //         select new
+            //         {
+            //             groups.Key,
+            //             Count = groups.Count(),
+            //             TotalOrderValue = groups.Sum(c => c.Orders != null
+            //                                  ? c.Orders.Sum(o => o.Total)
+            //                                  : 0)
+            //         };
+
+            //foreach (var item in result01)
+            //{
+            //    Console.WriteLine($"{item.Key} - {item.Count} - {item.TotalOrderValue}");
+            //}
+            #endregion
+
+                //foreach (var item in result)
+                //    Console.WriteLine(item);
         }
     }
 }
