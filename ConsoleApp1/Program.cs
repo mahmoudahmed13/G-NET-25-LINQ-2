@@ -26,6 +26,14 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Question 04
+            ////4. Check if ALL products in the "Seafood" category are in stock
+
+            //bool productsInStock = ProductList.Where(p => p.Category == "Seafood")
+            //                            .All(p => p.UnitsInStock > 0);
+            //Console.WriteLine($"{productsInStock}");
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
