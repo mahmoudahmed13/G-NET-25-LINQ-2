@@ -1,4 +1,5 @@
-﻿using static ConsoleApp1.DataSources.Source;
+﻿using System.ComponentModel;
+using static ConsoleApp1.DataSources.Source;
 
 namespace ConsoleApp1
 {
@@ -32,6 +33,13 @@ namespace ConsoleApp1
             //bool productsInStock = ProductList.Where(p => p.Category == "Seafood")
             //                            .All(p => p.UnitsInStock > 0);
             //Console.WriteLine($"{productsInStock}");
+            #endregion
+
+            #region Question 05
+            ////5.Check if the ID list contains 9
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //Console.WriteLine(ids.Contains(9)); // true;
             #endregion
 
             //foreach (var item in result)
