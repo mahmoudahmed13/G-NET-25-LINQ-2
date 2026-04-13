@@ -147,6 +147,14 @@ namespace ConsoleApp1
             //foreach (string s in list1.Except(list2,StringComparer.OrdinalIgnoreCase))
             //    Console.WriteLine(s); //Germany, UK
             #endregion
+
+            #region Question 15
+            ////15.Build a Dictionary<int, Product> keyed by ProductID.
+            ////Then retrieve and print the product with ID = 18.
+
+            //var result = ProductList.ToDictionary(p => p.ProductID);
+            //Console.WriteLine(result[18]);
+            #endregion
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
