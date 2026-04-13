@@ -184,6 +184,13 @@ namespace ConsoleApp1
             //    .Where(i => i % 2 == 0);
             #endregion
 
+            #region Question 20
+            ////20.Concatenate the first 3 product names with
+            ////the first 3 customer company names into a single sequence.
+
+            //var result = ProductList.Zip(CustomerList, (product,custom) => $"({product.ProductName},{custom.CompanyName})").Take(3);
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
