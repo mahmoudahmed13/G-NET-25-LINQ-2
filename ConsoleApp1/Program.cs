@@ -164,6 +164,14 @@ namespace ConsoleApp1
             //Console.WriteLine(firstProduct);
             #endregion
 
+            #region Question 17
+            ////17.Try to get the first product with a price > $500.
+            ////it returns null instead of throwing.
+
+            //var firstProduct = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(firstProduct);
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
