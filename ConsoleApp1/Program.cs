@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.ConstrainedExecution;
 using static ConsoleApp1.DataSources.Source;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp1
 {
@@ -79,6 +80,11 @@ namespace ConsoleApp1
 
             //} 
 
+            #endregion
+
+            #region Question 09
+            ////10.Calculate the total number of units in stock across all products
+            //Console.WriteLine(ProductList.Sum(p => p.UnitsInStock));
             #endregion
 
             //foreach (var item in result)
