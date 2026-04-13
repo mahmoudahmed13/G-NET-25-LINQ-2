@@ -138,6 +138,15 @@ namespace ConsoleApp1
             //foreach (var ids in setA.Except(setB))
             //    Console.WriteLine(ids);
             #endregion
+
+            #region Question 14
+            ////14.Find countries that appear in list1 but NOT in list2(case -insensitive).
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //foreach (string s in list1.Except(list2,StringComparer.OrdinalIgnoreCase))
+            //    Console.WriteLine(s); //Germany, UK
+            #endregion
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
