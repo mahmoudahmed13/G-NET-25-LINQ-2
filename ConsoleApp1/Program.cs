@@ -14,8 +14,16 @@ namespace ConsoleApp1
 
             #region Question 02
             //2.show page 2 of products, with page size = 5
-            int pageSize = 5, pageNumber = 2;
-            var result = ProductList.Skip((pageNumber -1 ) * pageSize).Take(pageSize);
+            //int pageSize = 5, pageNumber = 2;
+            //var result = ProductList.Skip((pageNumber -1 ) * pageSize).Take(pageSize);
+            #endregion
+
+            #region Question 03
+            //3. Take products from the list as long as
+            //Their UnitPrice is less than $25 (list is ordered by price).
+
+            //var result = ProductList.OrderBy(p=> p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+
             #endregion
 
             //foreach (var item in result)
