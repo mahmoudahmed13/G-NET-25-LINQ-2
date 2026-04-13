@@ -87,6 +87,11 @@ namespace ConsoleApp1
             //Console.WriteLine(ProductList.Sum(p => p.UnitsInStock));
             #endregion
 
+            #region Question 10
+            ////Find the CHEAPEST and MOST EXPENSIVE product prices
+            //Console.WriteLine($"Cheapest Produce: {ProductList.Min(p=>p.UnitPrice)} - Exepnive Produce: {ProductList.Max(p=>p.UnitPrice)}");
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
