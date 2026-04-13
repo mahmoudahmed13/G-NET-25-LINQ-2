@@ -53,7 +53,7 @@ namespace ConsoleApp1
 
             #region Question 07
             ////7.Group products by Category and project only product names per group
-            
+
             //var result = ProductList.GroupBy(p => p.Category, p => p.ProductName);
             //foreach (var group in result)
             //{
@@ -61,6 +61,24 @@ namespace ConsoleApp1
             //    foreach (var item in group)
             //        Console.WriteLine(item);
             //}
+            #endregion
+
+            #region Question 08
+            ////8.Find all categories that have MORE THAN 3 products
+
+            //var result = ProductList.GroupBy(p => p.Category)
+            //    .Where(p => p.Count() > 3)
+            //    .Select(p => new
+            //    {
+            //        p.Key,
+            //        Count = p.Count()
+            //    });
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine(group.Key + " - "+group.Count);
+
+            //} 
+
             #endregion
 
             //foreach (var item in result)
