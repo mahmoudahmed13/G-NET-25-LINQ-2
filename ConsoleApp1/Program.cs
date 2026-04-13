@@ -130,8 +130,16 @@ namespace ConsoleApp1
             //}
             #endregion
 
-                //foreach (var item in result)
-                //    Console.WriteLine(item);
+            #region Question 13
+            ////13.find product IDs that are in setA but NOT in setB
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+            //foreach (var ids in setA.Except(setB))
+            //    Console.WriteLine(ids);
+            #endregion
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
         }
     }
 }
