@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1.Models;
 using System.ComponentModel;
+using System.Runtime.ConstrainedExecution;
 using static ConsoleApp1.DataSources.Source;
 
 namespace ConsoleApp1
@@ -48,6 +49,18 @@ namespace ConsoleApp1
             //var result = ProductList.GroupBy(p => p.Category);
             //foreach (var group in result)
             //    Console.WriteLine($"{group.Key} - {group.Count()}");
+            #endregion
+
+            #region Question 07
+            ////7.Group products by Category and project only product names per group
+            
+            //var result = ProductList.GroupBy(p => p.Category, p => p.ProductName);
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"{group.Key} - {group.Count()} ");
+            //    foreach (var item in group)
+            //        Console.WriteLine(item);
+            //}
             #endregion
 
             //foreach (var item in result)
