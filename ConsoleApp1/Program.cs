@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using ConsoleApp1.Models;
+using System.ComponentModel;
 using static ConsoleApp1.DataSources.Source;
 
 namespace ConsoleApp1
@@ -40,6 +41,13 @@ namespace ConsoleApp1
             //int[] ids = { 3, 9, 13, 18 };
 
             //Console.WriteLine(ids.Contains(9)); // true;
+            #endregion
+
+            #region Question 06
+            ////6.Group all products by Category and print each group with its product count.
+            //var result = ProductList.GroupBy(p => p.Category);
+            //foreach (var group in result)
+            //    Console.WriteLine($"{group.Key} - {group.Count()}");
             #endregion
 
             //foreach (var item in result)
