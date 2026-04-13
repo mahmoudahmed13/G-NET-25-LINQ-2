@@ -172,6 +172,12 @@ namespace ConsoleApp1
             //Console.WriteLine(firstProduct);
             #endregion
 
+            #region Question 18
+            ////18.Generate a multiplication table row for 7
+            //var result = Enumerable.Range(1, 10)
+            //    .Select(i => $" {i} * 7 = {i * 7}");
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
