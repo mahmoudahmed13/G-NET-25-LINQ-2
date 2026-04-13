@@ -191,6 +191,14 @@ namespace ConsoleApp1
             //var result = ProductList.Zip(CustomerList, (product,custom) => $"({product.ProductName},{custom.CompanyName})").Take(3);
             #endregion
 
+            #region Question 21
+            ////21. Pair each product with a customer (by position)
+            ////and produce a string "ProductName sold to CompanyName".
+
+            //var result = ProductList.Zip(CustomerList, (product, custom) => $"{product.ProductName} sold to {custom.CompanyName}");
+
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
